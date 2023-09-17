@@ -1,5 +1,5 @@
 {
-    "app_id": "com.moodle.moodlemobile",
+    "app_id": "com.kudosit.moodlemobile",
     "appname": "Moodle Mobile",
     "versioncode": 43000,
     "versionname": "4.3.0",
@@ -86,7 +86,12 @@
         "high": 120
     },
     "customurlscheme": "moodlemobile",
-    "sites": [],
+    "sites": [{
+        "name": "ICROnline",
+        "alias": "I_CAN_READ_ONLINE",
+        "url": "https://online.icanread.com.au",
+        "staging": false
+    }],
     "multisitesdisplay": "",
     "sitefindersettings": {},
     "onlyallowlistedsites": false,
